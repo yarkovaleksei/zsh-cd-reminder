@@ -3,7 +3,12 @@ An Oh-My-Zsh Plugin to display reminders when cd-ing into specified directories.
 
 ## Installation
 Clone this repo into `~/.oh-my-zsh/custom/plugins` (or wherever your plugins are configured to live)
-and update the plugins config in your `~/.zshrc` file to include `zsh-cd-reminder`:
+
+```bash
+git clone https://github.com/yarkovaleksei/zsh-cd-reminder ~/.oh-my-zsh/custom/plugins/zsh-cd-reminder
+```
+
+Update the plugins config in your `~/.zshrc` file to include `zsh-cd-reminder`:
 
 ```bash
 plugins=(zsh-cd-reminder)
